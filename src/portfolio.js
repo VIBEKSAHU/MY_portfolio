@@ -25,8 +25,8 @@ const greeting = {
   subTitle: emoji(
     "Dedicated Full Stack Software Developer 🚀 adept at creating impactful web applications. Skilled in JavaScript, React.js, and Node.js, I specialize in delivering seamless and engaging digital experiences through innovative technologies and frameworks."
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1lQZCnJimI1ZVRE3NMlxkSOBB_VLXInRV/view?usp=sharing", // Set to empty to hide the button
+  // resumeLink:
+    // "https://drive.google.com/file/d/1lQZCnJimI1ZVRE3NMlxkSOBB_VLXInRV/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -44,7 +44,7 @@ const socialMediaLinks = {
   stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 // Skills Section
@@ -187,23 +187,23 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "Web Developer",
-      company: "Pandri Market Pvt. Ltd.",
-      companylogo: require("./assets/images/pm.png"),
-      date: "March 2023 – June 2023",
-      desc: "A real life E-commerce website",
-      descBullets: [
-        "I have used Linode Server for Linux based virtual machine.",
-        "For relational database management system I have used Postgres.",
-        "Leveraged a tech stack comprising NodeJS, ExpressJS,OTP verification on Firebase, ensuring data protection and user trust.",
-        "I have used ReactJS and Tailwind CSS for the frontend"
-      ],
-      btn: {
-        name: "Certificate",
-        url: "https://drive.google.com/file/d/1lwPUeup81bsQ7lwdmc-y_STn2vjmwK8m/view?usp=sharing"
-      }
-    }
+    // {
+    //   role: "Web Developer",
+    //   company: "Pandri Market Pvt. Ltd.",
+    //   companylogo: require("./assets/images/pm.png"),
+    //   date: "March 2023 – June 2023",
+    //   desc: "A real life E-commerce website",
+    //   descBullets: [
+    //     "I have used Linode Server for Linux based virtual machine.",
+    //     "For relational database management system I have used Postgres.",
+    //     "Leveraged a tech stack comprising NodeJS, ExpressJS,OTP verification on Firebase, ensuring data protection and user trust.",
+    //     "I have used ReactJS and Tailwind CSS for the frontend"
+    //   ],
+    //   btn: {
+    //     name: "Certificate",
+    //     url: "https://drive.google.com/file/d/1lwPUeup81bsQ7lwdmc-y_STn2vjmwK8m/view?usp=sharing"
+    //   }
+    // }
     // {
     //   role: "Mentor",
     //   company: "Physics Wallah",
@@ -316,7 +316,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -409,7 +409,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
